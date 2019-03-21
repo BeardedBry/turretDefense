@@ -2,14 +2,14 @@
 
 
 function create(){
-    let controlBox = this.add.rectangle(0,475, 440, 75,50, 0x37c3be,100);
+    let controlBox = this.add.rectangle(0,config.height-100, config.width, 100,50, 0x37c3be);
     controlBox.setOrigin(0,0);
 }
 
 
 const config = {
     type: Phaser.AUTO,
-    width: 500,
+    width: 800,
     height: 600,
     backgroundColor: 0x84ba75,
     scene: {
